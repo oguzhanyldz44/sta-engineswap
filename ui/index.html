@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper" class="glass-panel">
+        <div class="header">
+            <h3>MOTOR SESLERİ</h3>
+            <p>Aracınızın Motorunun Yeni Sesini Seçin!</p>
+        </div>
+        
+        <div id="list" class="scroll-container">
+            </div>
+
+        <div class="footer-actions">
+            <button class="btn-secondary" onclick="resetDefault()">FABRİKA AYARI</button>
+            <button class="btn-danger" onclick="closeUI()">KAPAT</button>
+        </div>
+    </div>
+
+    <div id="test-ui" class="glass-panel test-modal">
+        <div class="test-content">
+            <span class="pulse-icon"></span>
+            <h4>Motor Test Ediliyor...</h4>
+            <p>Sesi beğendiniz mi?</p>
+        </div>
+        <div class="test-actions">
+            <button class="btn-confirm" onclick="sendConfirm()">ONAYLA</button>
+            <button class="btn-cancel" onclick="sendCancel()">VAZGEÇ</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
