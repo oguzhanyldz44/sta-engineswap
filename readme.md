@@ -1,1 +1,1 @@
-you can contact me from here https://discord.gg/6f5TqGDZuU if you need my discord name for any question my name is Oguzhan_44a
+you can contact me from here https://discord.gg/js3zG7WFFd if you need my discord name for any question my name is Oguzhan_44a
