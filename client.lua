@@ -57,7 +57,7 @@ CreateThread(function()
                     ForceVehicleEngineAudio(vehicle, soundHash)
                 end
             end, plate)
-            Wait(10000) 
+            Wait(60000) 
         else
             Wait(2000)
         end
